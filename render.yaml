@@ -9,8 +9,8 @@ services:
         value: 3000
 
 databases:
-  - name: bentinata-db
+  - name: bentinata-bearmentor-db
     plan: free
     region: singapore
-    databaseName: render
+    databaseName: bearmentor
     user: user

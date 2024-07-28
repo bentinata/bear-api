@@ -1,0 +1,6 @@
+services:
+  - name: bentinata-bearmentor-api
+    type: web
+    runtime: docker
+    plan: free
+    region: singapore

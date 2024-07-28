@@ -7,3 +7,8 @@ services:
     envVars:
       - key: PORT
         value: 3000
+  - name: bentinata-db
+    plan: free
+    region: singapore
+    databaseName: render
+    user: user

@@ -1,0 +1,15 @@
+.git/
+.gitignore
+.vscode/
+README.md
+
+# node
+node_modules/
+
+# docker
+Dockerfile
+.dockerignore
+compose.yaml
+
+# infra
+render.yaml

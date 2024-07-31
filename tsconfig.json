@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/bun/tsconfig.json",
   "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
     "jsxImportSource": "hono/jsx"
   }
 }

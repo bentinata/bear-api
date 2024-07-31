@@ -5,6 +5,7 @@
     "start": "bun src/index.ts"
   },
   "dependencies": {
+    "arktype": "^2.0.0-beta.2",
     "hono": "^4.5.2"
   },
   "devDependencies": {

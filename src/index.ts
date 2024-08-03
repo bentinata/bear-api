@@ -1,6 +1,7 @@
-import { Hono } from "hono";
 import { type } from "arktype";
+import { Hono } from "hono";
 import { validator } from "hono/validator";
+import { name } from "../package.json" with { type: "json" };
 
 const app = new Hono();
 
@@ -25,7 +26,7 @@ export function setBears(newBears: Bear[]): Bear[] {
 }
 
 app.get("/", (c) => {
-  return c.text("Hello Hono!");
+  return c.json({ name });
 });
 
 app.get("/bears", (c) => {

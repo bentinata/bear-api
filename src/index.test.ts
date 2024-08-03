@@ -1,5 +1,11 @@
-import { describe, expect, it } from "bun:test";
+import { type } from "arktype";
+import { beforeEach, describe, expect, it, mock, spyOn } from "bun:test";
 import app from "./index";
+import * as repo from "./repo";
+
+beforeEach(() => {
+  mock.restore();
+});
 
 describe("/", () => {
   it("should return OK", async () => {
@@ -9,59 +15,93 @@ describe("/", () => {
   });
 });
 
+// TODO: Use faker here somehow
+const mockedBear = repo.Bear({
+  id: 1,
+  name: "ben",
+});
+
+if (mockedBear instanceof type.errors) {
+  process.exit(1);
+}
+
+const { id, ...validNewBear } = mockedBear;
+const invalidNewBear = { name: "123" };
+
 describe("GET /bears", () => {
   it("should return list of bears", async () => {
+    spyOn(repo, "getBears").mockReturnValue([mockedBear]);
+
     const res = await app.request("/bears");
 
     expect(res.status).toBe(200);
-    expect().fail("implementation needed");
+    const body = await res.json();
+    expect(body).toHaveLength(1);
+    expect(body).toHaveProperty("0.id", mockedBear.id);
   });
 
   it("should return empty list when there are no bears", async () => {
+    spyOn(repo, "getBears").mockReturnValue([]);
+
     const res = await app.request("/bears");
 
     expect(res.status).toBe(200);
-    expect().fail("implementation needed");
+    const body = await res.json();
+    expect(body).toHaveLength(0);
   });
 });
 
 describe("POST /bears", () => {
   it("should create new bear", async () => {
+    const mockedSetBears = spyOn(repo, "setBears");
+
     const res = await app.request("/bears", {
       method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(validNewBear),
     });
 
     expect(res.status).toBe(201);
-    expect().fail("implementation needed");
+    expect(mockedSetBears).toHaveBeenCalled();
   });
 
   it("should return error when new bear is invalid", async () => {
+    const mockedSetBears = spyOn(repo, "setBears");
+
     const res = await app.request("/bears", {
       method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(invalidNewBear),
     });
 
     expect(res.status).toBe(400);
-    expect().fail("implementation needed");
+    expect(mockedSetBears).not.toHaveBeenCalled();
   });
 });
 
-describe("GET /bears/:id", () => {
+describe("GET /bears/:name", () => {
   it("should return details of bear", async () => {
-    const res = await app.request("/bears/1");
+    spyOn(repo, "getBears").mockReturnValue([mockedBear]);
+    const res = await app.request("/bears/ben");
 
     expect(res.status).toBe(200);
-    expect().fail("implementation needed");
+    const body = await res.json();
+    expect(body).toHaveProperty("id", mockedBear.id);
   });
 
   it("should return error when bear does not exist", async () => {
-    const res = await app.request("/bears/1");
+    spyOn(repo, "getBears").mockReturnValue([mockedBear]);
+    const res = await app.request("/bears/ghost");
 
     expect(res.status).toBe(404);
-    expect().fail("implementation needed");
   });
 });
 
-describe("PATCH /bears/:id", () => {
+describe.todo("PATCH /bears/:name", () => {
   it("should update and return new details of bear", async () => {
     const res = await app.request("/bears/1", {
       method: "PATCH",
@@ -81,7 +121,7 @@ describe("PATCH /bears/:id", () => {
   });
 });
 
-describe("DELETE /bears/:id", () => {
+describe.todo("DELETE /bears/:name", () => {
   it("should delete existing bear", async () => {
     const res = await app.request("/bears", {
       method: "DELETE",

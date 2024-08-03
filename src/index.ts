@@ -2,28 +2,9 @@ import { type } from "arktype";
 import { Hono } from "hono";
 import { validator } from "hono/validator";
 import { name } from "../package.json" with { type: "json" };
+import { getBears, NewBear, setBears } from "./repo";
 
 const app = new Hono();
-
-const Bear = type({
-  id: "number",
-  name: "alpha",
-});
-
-type Bear = typeof Bear.infer;
-
-const NewBear = Bear.omit("id");
-
-let bears: Bear[] = [];
-
-export function getBears(): Bear[] {
-  return bears;
-}
-
-export function setBears(newBears: Bear[]): Bear[] {
-  bears = newBears;
-  return bears;
-}
 
 app.get("/", (c) => {
   return c.json({ name });

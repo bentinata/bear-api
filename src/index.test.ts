@@ -34,6 +34,15 @@ describe("POST /bears", () => {
     expect(res.status).toBe(201);
     expect().fail("implementation needed");
   });
+
+  it("should return error when new bear is invalid", async () => {
+    const res = await app.request("/bears", {
+      method: "POST",
+    });
+
+    expect(res.status).toBe(400);
+    expect().fail("implementation needed");
+  });
 });
 
 describe("GET /bears/:id", () => {

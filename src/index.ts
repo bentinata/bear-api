@@ -15,16 +15,25 @@ const NewBear = Bear.omit("id");
 
 let bears: Bear[] = [];
 
+export function getBears(): Bear[] {
+  return bears;
+}
+
+export function setBears(newBears: Bear[]): Bear[] {
+  bears = newBears;
+  return bears;
+}
+
 app.get("/", (c) => {
   return c.text("Hello Hono!");
 });
 
 app.get("/bears", (c) => {
-  return c.json(bears);
+  return c.json(getBears());
 });
 
 app.get("/bears/:name", (c) => {
-  const bear = bears.find(({ name }) => c.req.param("name") === name);
+  const bear = getBears().find(({ name }) => c.req.param("name") === name);
 
   if (!bear) {
     c.status(404);
@@ -51,7 +60,9 @@ app.post(
 
     const id = crypto.getRandomValues(new Uint32Array(1))[0];
 
+    const bears = getBears();
     bears.push({ id, ...bear });
+    setBears(bears);
 
     c.status(201);
     return c.json(bear);

@@ -11,3 +11,11 @@ services:
           target: /usr/src/app
         - action: rebuild
           path: package.json
+  db:
+    image: postgres:16-alpine
+    ports:
+      - "5432:5432"
+    shm_size: 128mb
+    env_file:
+      - path: .env
+        required: true

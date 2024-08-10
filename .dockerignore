@@ -3,6 +3,9 @@
 .vscode/
 README.md
 
+# secret
+.env*
+
 # node
 node_modules/
 

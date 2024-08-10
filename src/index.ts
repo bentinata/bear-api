@@ -2,7 +2,7 @@ import { type } from "arktype";
 import { Hono } from "hono";
 import { validator } from "hono/validator";
 import { name } from "../package.json" with { type: "json" };
-import { getBears, NewBear, setBears } from "./repo";
+import { getBearByName, getBears, insertBear, NewBear } from "./repo";
 
 const app = new Hono();
 
@@ -10,12 +10,12 @@ app.get("/", (c) => {
   return c.json({ name });
 });
 
-app.get("/bears", (c) => {
-  return c.json(getBears());
+app.get("/bears", async (c) => {
+  return c.json(await getBears());
 });
 
-app.get("/bears/:name", (c) => {
-  const bear = getBears().find(({ name }) => c.req.param("name") === name);
+app.get("/bears/:name", async (c) => {
+  const bear = await getBearByName(c.req.param("name"));
 
   if (!bear) {
     c.status(404);
@@ -37,17 +37,15 @@ app.post(
 
     return parsed;
   }),
-  (c) => {
+  async (c) => {
     const bear = c.req.valid("json");
 
     const id = crypto.getRandomValues(new Uint32Array(1))[0];
 
-    const bears = getBears();
-    bears.push({ id, ...bear });
-    setBears(bears);
+    const insertedBear = await insertBear({ id, ...bear });
 
     c.status(201);
-    return c.json(bear);
+    return c.json(insertedBear);
   }
 );
 

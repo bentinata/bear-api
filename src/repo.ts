@@ -1,4 +1,6 @@
 import { type } from "arktype";
+import { db } from "./db";
+import { bears } from "./schema";
 
 export const Bear = type({
   id: "number",
@@ -9,13 +11,20 @@ export type Bear = typeof Bear.infer;
 
 export const NewBear = Bear.omit("id");
 
-let bears: Bear[] = [];
-
-export function getBears(): Bear[] {
-  return bears;
+export function getBears(): Promise<Bear[]> {
+  return db.query.bears.findMany();
 }
 
-export function setBears(newBears: Bear[]): Bear[] {
-  bears = newBears;
-  return bears;
+export function getBearByName(name: string): Promise<Bear | undefined> {
+  return db.query.bears.findFirst({
+    where: (bear, { eq }) => eq(bear.name, name),
+  });
+}
+
+export function insertBear(bear: Bear): Promise<Bear> {
+  return db
+    .insert(bears)
+    .values(bear)
+    .returning()
+    .then(([insertedBear]) => insertedBear);
 }

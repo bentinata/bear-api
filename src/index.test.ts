@@ -30,7 +30,7 @@ const invalidNewBear = { name: "123" };
 
 describe("GET /bears", () => {
   it("should return list of bears", async () => {
-    spyOn(repo, "getBears").mockReturnValue([mockedBear]);
+    spyOn(repo, "getBears").mockResolvedValue([mockedBear]);
 
     const res = await app.request("/bears");
 
@@ -41,7 +41,7 @@ describe("GET /bears", () => {
   });
 
   it("should return empty list when there are no bears", async () => {
-    spyOn(repo, "getBears").mockReturnValue([]);
+    spyOn(repo, "getBears").mockResolvedValue([]);
 
     const res = await app.request("/bears");
 
@@ -53,7 +53,9 @@ describe("GET /bears", () => {
 
 describe("POST /bears", () => {
   it("should create new bear", async () => {
-    const mockedSetBears = spyOn(repo, "setBears");
+    const mockedSetBears = spyOn(repo, "insertBear").mockResolvedValue(
+      mockedBear
+    );
 
     const res = await app.request("/bears", {
       method: "POST",
@@ -68,7 +70,9 @@ describe("POST /bears", () => {
   });
 
   it("should return error when new bear is invalid", async () => {
-    const mockedSetBears = spyOn(repo, "setBears");
+    const mockedSetBears = spyOn(repo, "insertBear").mockResolvedValue(
+      mockedBear
+    );
 
     const res = await app.request("/bears", {
       method: "POST",
@@ -85,7 +89,7 @@ describe("POST /bears", () => {
 
 describe("GET /bears/:name", () => {
   it("should return details of bear", async () => {
-    spyOn(repo, "getBears").mockReturnValue([mockedBear]);
+    spyOn(repo, "getBears").mockResolvedValue([mockedBear]);
     const res = await app.request("/bears/ben");
 
     expect(res.status).toBe(200);
@@ -94,7 +98,7 @@ describe("GET /bears/:name", () => {
   });
 
   it("should return error when bear does not exist", async () => {
-    spyOn(repo, "getBears").mockReturnValue([mockedBear]);
+    spyOn(repo, "getBears").mockResolvedValue([mockedBear]);
     const res = await app.request("/bears/ghost");
 
     expect(res.status).toBe(404);

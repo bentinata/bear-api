@@ -26,4 +26,10 @@ Then you can do migrations with:
 bunx drizzle-kit push
 ```
 
+You can also populate the database with:
+
+```sh
+bun src/seed.ts
+```
+
 Then visit http://127.1:3000

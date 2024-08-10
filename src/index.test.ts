@@ -89,19 +89,25 @@ describe("POST /bears", () => {
 
 describe("GET /bears/:name", () => {
   it("should return details of bear", async () => {
-    spyOn(repo, "getBears").mockResolvedValue([mockedBear]);
+    const mockedGetBearByName = spyOn(repo, "getBearByName").mockResolvedValue(
+      mockedBear
+    );
     const res = await app.request("/bears/ben");
 
     expect(res.status).toBe(200);
     const body = await res.json();
     expect(body).toHaveProperty("id", mockedBear.id);
+    expect(mockedGetBearByName).toHaveBeenCalledWith("ben");
   });
 
   it("should return error when bear does not exist", async () => {
-    spyOn(repo, "getBears").mockResolvedValue([mockedBear]);
+    const mockedGetBearByName = spyOn(repo, "getBearByName").mockResolvedValue(
+      undefined
+    );
     const res = await app.request("/bears/ghost");
 
     expect(res.status).toBe(404);
+    expect(mockedGetBearByName).toHaveBeenCalledWith("ghost");
   });
 });
 

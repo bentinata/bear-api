@@ -6,14 +6,14 @@
     "start": "bun src/index.ts"
   },
   "dependencies": {
-    "arktype": "^2.0.0-beta.2",
-    "drizzle-orm": "^0.32.1",
-    "hono": "^4.5.2",
+    "arktype": "^2.0.0-beta.5",
+    "drizzle-orm": "^0.32.2",
+    "hono": "^4.5.4",
     "postgres": "^3.4.4"
   },
   "devDependencies": {
     "@tsconfig/bun": "^1.0.7",
     "@types/bun": "latest",
-    "drizzle-kit": "^0.23.1"
+    "drizzle-kit": "^0.23.2"
   }
 }

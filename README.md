@@ -14,16 +14,16 @@ This is **a sleuth of bears**:
 
 # Development
 
-To install dependencies:
+To run the web app and database inside containers:
 
 ```sh
-bun install
+docker compose up --watch --build
 ```
 
-To run:
+Then you can do migrations with:
 
 ```sh
-bun run dev
+bunx drizzle-kit push
 ```
 
-open http://localhost:3000
+Then visit http://127.1:3000

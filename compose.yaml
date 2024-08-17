@@ -1,3 +1,5 @@
+name: bear-api
+
 services:
   web:
     build: .

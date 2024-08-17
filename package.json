@@ -1,5 +1,5 @@
 {
-  "name": "@bentinata/bearmentor-api",
+  "name": "@bentinata/bear-api",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
     "release": "bun test && bunx commit-and-tag-version",

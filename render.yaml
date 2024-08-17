@@ -1,5 +1,5 @@
 services:
-  - name: bentinata-bearmentor-api
+  - name: bentinata-bear-api
     type: web
     runtime: docker
     plan: free
@@ -9,8 +9,8 @@ services:
         value: 3000
 
 databases:
-  - name: bentinata-bearmentor-db
+  - name: bentinata-bear-db
     plan: free
     region: singapore
-    databaseName: bearmentor
-    user: user
+    databaseName: bear_db
+    user: bear

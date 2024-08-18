@@ -1,15 +1,5 @@
-import { type } from "arktype";
 import { db } from "../db";
-import { bears } from "./schema";
-
-export const Bear = type({
-  id: "number",
-  name: "alpha",
-});
-
-export type Bear = typeof Bear.infer;
-
-export const NewBear = Bear.omit("id");
+import { bears, type Bear, type NewBear } from "./schema";
 
 export function getBears(): Promise<Bear[]> {
   return db.query.bears.findMany();
@@ -21,10 +11,14 @@ export function getBearByName(name: string): Promise<Bear | undefined> {
   });
 }
 
-export function insertBear(bear: Bear): Promise<Bear> {
-  return db
-    .insert(bears)
-    .values(bear)
-    .returning()
-    .then(([insertedBear]) => insertedBear);
+export function insertBear(bear: NewBear): Promise<Bear> {
+  return (
+    db
+      .insert(bears)
+      // https://github.com/drizzle-team/drizzle-orm/pull/2809
+      // @ts-expect-error
+      .values(bear)
+      .returning()
+      .then(([insertedBear]) => insertedBear)
+  );
 }

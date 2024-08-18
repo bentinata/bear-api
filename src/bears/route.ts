@@ -1,7 +1,7 @@
-import { type } from "arktype";
+import { zValidator } from "@hono/zod-validator";
 import { Hono } from "hono";
-import { validator } from "hono/validator";
-import { getBearByName, getBears, insertBear, NewBear } from "./repo";
+import { getBearByName, getBears, insertBear } from "./repo";
+import { NewBearSchema } from "./schema";
 
 const app = new Hono();
 
@@ -22,22 +22,16 @@ app.get("/:name", async (c) => {
 
 app.post(
   "/",
-  validator("json", (value, c) => {
-    const parsed = NewBear(value);
-
-    if (parsed instanceof type.errors) {
+  zValidator("json", NewBearSchema, (result, c) => {
+    if (!result.success) {
       c.status(400);
-      return c.json(parsed.summary);
+      return c.json(result.error);
     }
-
-    return parsed;
   }),
   async (c) => {
     const bear = c.req.valid("json");
-
     const id = crypto.getRandomValues(new Uint32Array(1))[0];
-
-    const insertedBear = await insertBear({ id, ...bear });
+    const insertedBear = await insertBear({ ...bear, id });
 
     c.status(201);
     return c.json(insertedBear);

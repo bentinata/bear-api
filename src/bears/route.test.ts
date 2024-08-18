@@ -1,21 +1,17 @@
-import { type } from "arktype";
 import { beforeEach, describe, expect, it, mock, spyOn } from "bun:test";
-import app from "./route";
 import * as repo from "./repo";
+import app from "./route";
+import { BearSchema } from "./schema";
 
 beforeEach(() => {
   mock.restore();
 });
 
 // TODO: Use faker here somehow
-const mockedBear = repo.Bear({
+const mockedBear = BearSchema.parse({
   id: 1,
   name: "ben",
 });
-
-if (mockedBear instanceof type.errors) {
-  process.exit(1);
-}
 
 const { id, ...validNewBear } = mockedBear;
 const invalidNewBear = { name: "123" };

@@ -6,8 +6,10 @@
     "start": "bun src/index.ts"
   },
   "dependencies": {
+    "@hono/zod-validator": "^0.2.2",
     "arktype": "^2.0.0-beta.5",
     "drizzle-orm": "^0.32.2",
+    "drizzle-zod": "^0.5.1",
     "hono": "^4.5.4",
     "postgres": "^3.4.4"
   },

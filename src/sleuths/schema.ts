@@ -5,31 +5,10 @@ import {
   primaryKey,
   serial,
   timestamp,
-  uniqueIndex,
   varchar,
 } from "drizzle-orm/pg-core";
-
-export const bears = pgTable(
-  "bears",
-  {
-    id: serial("id").notNull().primaryKey(),
-    name: varchar("name", { length: 64 }).notNull(),
-  },
-  (bear) => ({
-    nameIndex: uniqueIndex().on(bear.name),
-  })
-);
-
-export const forests = pgTable(
-  "forests",
-  {
-    id: serial("id").notNull().primaryKey(),
-    name: varchar("name", { length: 64 }).notNull(),
-  },
-  (forest) => ({
-    nameIndex: uniqueIndex().on(forest.name),
-  })
-);
+import { bears } from "../bears/schema";
+import { forests } from "../forests/schema";
 
 export const sleuths = pgTable("sleuths", {
   id: serial("id").notNull().primaryKey(),

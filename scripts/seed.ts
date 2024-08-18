@@ -1,5 +1,5 @@
-import { connection, db } from "./db";
-import { bears, forests, sleuthAttendees, sleuths } from "./schema";
+import { connection, db } from "../src/db";
+import { bears, forests, sleuthAttendees, sleuths } from "../src/db/schema";
 
 const insertedBears = await db
   .insert(bears)

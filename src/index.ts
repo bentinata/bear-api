@@ -1,52 +1,15 @@
-import { type } from "arktype";
 import { Hono } from "hono";
-import { validator } from "hono/validator";
 import { name } from "../package.json" with { type: "json" };
-import { getBearByName, getBears, insertBear, NewBear } from "./repo";
+import bears from "./bears/route";
 
 const app = new Hono();
+
 
 app.get("/", (c) => {
   return c.json({ name });
 });
 
-app.get("/bears", async (c) => {
-  return c.json(await getBears());
-});
+app.route("/bears", bears)
 
-app.get("/bears/:name", async (c) => {
-  const bear = await getBearByName(c.req.param("name"));
-
-  if (!bear) {
-    c.status(404);
-    return c.json(null);
-  }
-
-  return c.json(bear);
-});
-
-app.post(
-  "/bears",
-  validator("json", (value, c) => {
-    const parsed = NewBear(value);
-
-    if (parsed instanceof type.errors) {
-      c.status(400);
-      return c.json(parsed.summary);
-    }
-
-    return parsed;
-  }),
-  async (c) => {
-    const bear = c.req.valid("json");
-
-    const id = crypto.getRandomValues(new Uint32Array(1))[0];
-
-    const insertedBear = await insertBear({ id, ...bear });
-
-    c.status(201);
-    return c.json(insertedBear);
-  }
-);
 
 export default app;

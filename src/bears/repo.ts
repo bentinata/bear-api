@@ -1,5 +1,5 @@
 import { type } from "arktype";
-import { db } from "./db";
+import { db } from "../db";
 import { bears } from "./schema";
 
 export const Bear = type({

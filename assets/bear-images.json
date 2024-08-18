@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "apple/ios-10.2/bear",
+    "ref": "https://emojipedia.org/apple/ios-10.2/bear",
+    "src": "https://em-content.zobj.net/source/apple/81/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-10.2/panda",
+    "ref": "https://emojipedia.org/apple/ios-10.2/panda",
+    "src": "https://em-content.zobj.net/source/apple/81/panda-face_1f43c.png"
+  },
+  {
+    "id": "apple/ios-11.1/bear",
+    "ref": "https://emojipedia.org/apple/ios-11.1/bear",
+    "src": "https://em-content.zobj.net/source/apple/114/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-11.1/panda",
+    "ref": "https://emojipedia.org/apple/ios-11.1/panda",
+    "src": "https://em-content.zobj.net/source/apple/114/panda-face_1f43c.png"
+  },
+  {
+    "id": "apple/ios-11.3/bear",
+    "ref": "https://emojipedia.org/apple/ios-11.3/bear",
+    "src": "https://em-content.zobj.net/source/apple/129/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-12.1/teddy-bear",
+    "ref": "https://emojipedia.org/apple/ios-12.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/apple/155/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "apple/ios-14.2/polar-bear",
+    "ref": "https://emojipedia.org/apple/ios-14.2/polar-bear",
+    "src": "https://em-content.zobj.net/source/apple/271/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "apple/ios-17.4/bear",
+    "ref": "https://emojipedia.org/apple/ios-17.4/bear",
+    "src": "https://em-content.zobj.net/source/apple/391/bear_1f43b.png"
+  },
+  {
+    "id": "apple/ios-17.4/panda",
+    "ref": "https://emojipedia.org/apple/ios-17.4/panda",
+    "src": "https://em-content.zobj.net/source/apple/391/panda_1f43c.png"
+  },
+  {
+    "id": "apple/ios-17.4/polar-bear",
+    "ref": "https://emojipedia.org/apple/ios-17.4/polar-bear",
+    "src": "https://em-content.zobj.net/source/apple/391/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "apple/ios-17.4/teddy-bear",
+    "ref": "https://emojipedia.org/apple/ios-17.4/teddy-bear",
+    "src": "https://em-content.zobj.net/source/apple/391/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "apple/ios-4.0/bear",
+    "ref": "https://emojipedia.org/apple/ios-4.0/bear",
+    "src": "https://em-content.zobj.net/source/apple/125/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-5.1/bear",
+    "ref": "https://emojipedia.org/apple/ios-5.1/bear",
+    "src": "https://em-content.zobj.net/source/apple/126/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-5.1/panda",
+    "ref": "https://emojipedia.org/apple/ios-5.1/panda",
+    "src": "https://em-content.zobj.net/source/apple/126/panda-face_1f43c.png"
+  },
+  {
+    "id": "apple/ios-6.0/bear",
+    "ref": "https://emojipedia.org/apple/ios-6.0/bear",
+    "src": "https://em-content.zobj.net/source/apple/21/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-6.0/panda",
+    "ref": "https://emojipedia.org/apple/ios-6.0/panda",
+    "src": "https://em-content.zobj.net/source/apple/21/panda-face_1f43c.png"
+  },
+  {
+    "id": "apple/ios-8.3/bear",
+    "ref": "https://emojipedia.org/apple/ios-8.3/bear",
+    "src": "https://em-content.zobj.net/source/apple/51/bear-face_1f43b.png"
+  },
+  {
+    "id": "apple/ios-8.3/panda",
+    "ref": "https://emojipedia.org/apple/ios-8.3/panda",
+    "src": "https://em-content.zobj.net/source/apple/51/panda-face_1f43c.png"
+  },
+  {
+    "id": "apple/iphone-os-2.2/bear",
+    "ref": "https://emojipedia.org/apple/iphone-os-2.2/bear",
+    "src": "https://em-content.zobj.net/source/apple/124/bear-face_1f43b.png"
+  },
+  {
+    "id": "au-kddi/type-d-1/bear",
+    "ref": "https://emojipedia.org/au-kddi/type-d-1/bear",
+    "src": "https://em-content.zobj.net/source/au-kddi/192/bear-face_1f43b.gif"
+  },
+  {
+    "id": "au-kddi/type-d-1/panda",
+    "ref": "https://emojipedia.org/au-kddi/type-d-1/panda",
+    "src": "https://em-content.zobj.net/source/au-kddi/192/panda-face_1f43c.gif"
+  },
+  {
+    "id": "au-kddi/type-d-2/bear",
+    "ref": "https://emojipedia.org/au-kddi/type-d-2/bear",
+    "src": "https://em-content.zobj.net/source/au-kddi/196/bear-face_1f43b.gif"
+  },
+  {
+    "id": "au-kddi/type-d-2/panda",
+    "ref": "https://emojipedia.org/au-kddi/type-d-2/panda",
+    "src": "https://em-content.zobj.net/source/au-kddi/196/panda-face_1f43c.gif"
+  },
+  {
+    "id": "au-kddi/type-d-3/bear",
+    "ref": "https://emojipedia.org/au-kddi/type-d-3/bear",
+    "src": "https://em-content.zobj.net/source/au-kddi/194/bear-face_1f43b.png"
+  },
+  {
+    "id": "au-kddi/type-d-3/panda",
+    "ref": "https://emojipedia.org/au-kddi/type-d-3/panda",
+    "src": "https://em-content.zobj.net/source/au-kddi/194/panda-face_1f43c.png"
+  },
+  {
+    "id": "au-kddi/type-f/bear",
+    "ref": "https://emojipedia.org/au-kddi/type-f/bear",
+    "src": "https://em-content.zobj.net/source/au-kddi/190/bear-face_1f43b.png"
+  },
+  {
+    "id": "au-kddi/type-f/panda",
+    "ref": "https://emojipedia.org/au-kddi/type-f/panda",
+    "src": "https://em-content.zobj.net/source/au-kddi/190/panda-face_1f43c.png"
+  },
+  {
+    "id": "docomo/2013/bear",
+    "ref": "https://emojipedia.org/docomo/2013/bear",
+    "src": "https://em-content.zobj.net/source/docomo/205/bear-face_1f43b.png"
+  },
+  {
+    "id": "docomo/2013/panda",
+    "ref": "https://emojipedia.org/docomo/2013/panda",
+    "src": "https://em-content.zobj.net/source/docomo/205/panda-face_1f43c.png"
+  },
+  {
+    "id": "emojidex/1.0.14/bear",
+    "ref": "https://emojipedia.org/emojidex/1.0.14/bear",
+    "src": "https://em-content.zobj.net/source/emojidex/59/bear-face_1f43b.png"
+  },
+  {
+    "id": "emojidex/1.0.14/panda",
+    "ref": "https://emojipedia.org/emojidex/1.0.14/panda",
+    "src": "https://em-content.zobj.net/source/emojidex/59/panda-face_1f43c.png"
+  },
+  {
+    "id": "emojidex/1.0.33/bear",
+    "ref": "https://emojipedia.org/emojidex/1.0.33/bear",
+    "src": "https://em-content.zobj.net/source/emojidex/107/bear-face_1f43b.png"
+  },
+  {
+    "id": "emojidex/1.0.33/panda",
+    "ref": "https://emojipedia.org/emojidex/1.0.33/panda",
+    "src": "https://em-content.zobj.net/source/emojidex/107/panda-face_1f43c.png"
+  },
+  {
+    "id": "emojidex/1.0.34/bear",
+    "ref": "https://emojipedia.org/emojidex/1.0.34/bear",
+    "src": "https://em-content.zobj.net/source/emojidex/112/bear-face_1f43b.png"
+  },
+  {
+    "id": "emojidex/1.0.34/panda",
+    "ref": "https://emojipedia.org/emojidex/1.0.34/panda",
+    "src": "https://em-content.zobj.net/source/emojidex/112/panda-face_1f43c.png"
+  },
+  {
+    "id": "emojipedia/11.0/teddy-bear",
+    "ref": "https://emojipedia.org/emojipedia/11.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/emojipedia/113/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "emojipedia/11.1/teddy-bear",
+    "ref": "https://emojipedia.org/emojipedia/11.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/emojipedia/132/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "emojipedia/13.0/polar-bear",
+    "ref": "https://emojipedia.org/emojipedia/13.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/emojipedia/240/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "facebook/1.0/bear",
+    "ref": "https://emojipedia.org/facebook/1.0/bear",
+    "src": "https://em-content.zobj.net/source/facebook/11/bear-face_1f43b.png"
+  },
+  {
+    "id": "facebook/13.0/polar-bear",
+    "ref": "https://emojipedia.org/facebook/13.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/facebook/305/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "facebook/15.0/bear",
+    "ref": "https://emojipedia.org/facebook/15.0/bear",
+    "src": "https://em-content.zobj.net/source/facebook/355/bear_1f43b.png"
+  },
+  {
+    "id": "facebook/15.0/panda",
+    "ref": "https://emojipedia.org/facebook/15.0/panda",
+    "src": "https://em-content.zobj.net/source/facebook/355/panda_1f43c.png"
+  },
+  {
+    "id": "facebook/15.0/polar-bear",
+    "ref": "https://emojipedia.org/facebook/15.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/facebook/355/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "facebook/15.0/teddy-bear",
+    "ref": "https://emojipedia.org/facebook/15.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/facebook/355/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "facebook/2.0/bear",
+    "ref": "https://emojipedia.org/facebook/2.0/bear",
+    "src": "https://em-content.zobj.net/source/facebook/92/bear-face_1f43b.png"
+  },
+  {
+    "id": "facebook/2.0/panda",
+    "ref": "https://emojipedia.org/facebook/2.0/panda",
+    "src": "https://em-content.zobj.net/source/facebook/92/panda-face_1f43c.png"
+  },
+  {
+    "id": "facebook/3.0/bear",
+    "ref": "https://emojipedia.org/facebook/3.0/bear",
+    "src": "https://em-content.zobj.net/source/facebook/158/bear-face_1f43b.png"
+  },
+  {
+    "id": "facebook/3.0/panda",
+    "ref": "https://emojipedia.org/facebook/3.0/panda",
+    "src": "https://em-content.zobj.net/source/facebook/158/panda-face_1f43c.png"
+  },
+  {
+    "id": "facebook/3.0/teddy-bear",
+    "ref": "https://emojipedia.org/facebook/3.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/facebook/158/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "google/15.1/bear",
+    "ref": "https://emojipedia.org/google/15.1/bear",
+    "src": "https://em-content.zobj.net/source/google/387/bear_1f43b.png"
+  },
+  {
+    "id": "google/15.1/panda",
+    "ref": "https://emojipedia.org/google/15.1/panda",
+    "src": "https://em-content.zobj.net/source/google/387/panda_1f43c.png"
+  },
+  {
+    "id": "google/15.1/polar-bear",
+    "ref": "https://emojipedia.org/google/15.1/polar-bear",
+    "src": "https://em-content.zobj.net/source/google/387/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "google/15.1/teddy-bear",
+    "ref": "https://emojipedia.org/google/15.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/google/387/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "google/android-11.0/bear",
+    "ref": "https://emojipedia.org/google/android-11.0/bear",
+    "src": "https://em-content.zobj.net/source/google/263/bear_1f43b.png"
+  },
+  {
+    "id": "google/android-11.0/panda",
+    "ref": "https://emojipedia.org/google/android-11.0/panda",
+    "src": "https://em-content.zobj.net/source/google/263/panda_1f43c.png"
+  },
+  {
+    "id": "google/android-11.0/polar-bear",
+    "ref": "https://emojipedia.org/google/android-11.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/google/263/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "google/android-12.0/teddy-bear",
+    "ref": "https://emojipedia.org/google/android-12.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/google/298/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "google/android-4.3/bear",
+    "ref": "https://emojipedia.org/google/android-4.3/bear",
+    "src": "https://em-content.zobj.net/source/google/55/bear-face_1f43b.png"
+  },
+  {
+    "id": "google/android-4.3/panda",
+    "ref": "https://emojipedia.org/google/android-4.3/panda",
+    "src": "https://em-content.zobj.net/source/google/55/panda-face_1f43c.png"
+  },
+  {
+    "id": "google/android-4.4/bear",
+    "ref": "https://emojipedia.org/google/android-4.4/bear",
+    "src": "https://em-content.zobj.net/source/google/6/bear-face_1f43b.png"
+  },
+  {
+    "id": "google/android-4.4/panda",
+    "ref": "https://emojipedia.org/google/android-4.4/panda",
+    "src": "https://em-content.zobj.net/source/google/6/panda-face_1f43c.png"
+  },
+  {
+    "id": "google/android-5.0/bear",
+    "ref": "https://emojipedia.org/google/android-5.0/bear",
+    "src": "https://em-content.zobj.net/source/google/3/bear-face_1f43b.png"
+  },
+  {
+    "id": "google/android-5.0/panda",
+    "ref": "https://emojipedia.org/google/android-5.0/panda",
+    "src": "https://em-content.zobj.net/source/google/3/panda-face_1f43c.png"
+  },
+  {
+    "id": "google/android-7.0/bear",
+    "ref": "https://emojipedia.org/google/android-7.0/bear",
+    "src": "https://em-content.zobj.net/source/google/56/bear-face_1f43b.png"
+  },
+  {
+    "id": "google/android-7.0/panda",
+    "ref": "https://emojipedia.org/google/android-7.0/panda",
+    "src": "https://em-content.zobj.net/source/google/56/panda-face_1f43c.png"
+  },
+  {
+    "id": "google/android-8.0/bear",
+    "ref": "https://emojipedia.org/google/android-8.0/bear",
+    "src": "https://em-content.zobj.net/source/google/110/bear-face_1f43b.png"
+  },
+  {
+    "id": "google/android-8.0/panda",
+    "ref": "https://emojipedia.org/google/android-8.0/panda",
+    "src": "https://em-content.zobj.net/source/google/110/panda-face_1f43c.png"
+  },
+  {
+    "id": "google/android-9.0/teddy-bear",
+    "ref": "https://emojipedia.org/google/android-9.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/google/146/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "htc/sense-7/bear",
+    "ref": "https://emojipedia.org/htc/sense-7/bear",
+    "src": "https://em-content.zobj.net/source/htc/37/bear-face_1f43b.png"
+  },
+  {
+    "id": "htc/sense-7/panda",
+    "ref": "https://emojipedia.org/htc/sense-7/panda",
+    "src": "https://em-content.zobj.net/source/htc/37/panda-face_1f43c.png"
+  },
+  {
+    "id": "huawei/harmony-os-4.0/bear",
+    "ref": "https://emojipedia.org/huawei/harmony-os-4.0/bear",
+    "src": "https://em-content.zobj.net/source/huawei/375/bear_1f43b.png"
+  },
+  {
+    "id": "huawei/harmony-os-4.0/panda",
+    "ref": "https://emojipedia.org/huawei/harmony-os-4.0/panda",
+    "src": "https://em-content.zobj.net/source/huawei/375/panda_1f43c.png"
+  },
+  {
+    "id": "huawei/harmony-os-4.0/polar-bear",
+    "ref": "https://emojipedia.org/huawei/harmony-os-4.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/huawei/375/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "huawei/harmony-os-4.0/teddy-bear",
+    "ref": "https://emojipedia.org/huawei/harmony-os-4.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/huawei/375/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "icons8/14.0/bear",
+    "ref": "https://emojipedia.org/icons8/14.0/bear",
+    "src": "https://em-content.zobj.net/source/icons8/373/bear_1f43b.png"
+  },
+  {
+    "id": "icons8/14.0/panda",
+    "ref": "https://emojipedia.org/icons8/14.0/panda",
+    "src": "https://em-content.zobj.net/source/icons8/373/panda_1f43c.png"
+  },
+  {
+    "id": "icons8/14.0/polar-bear",
+    "ref": "https://emojipedia.org/icons8/14.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/icons8/373/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "icons8/14.0/teddy-bear",
+    "ref": "https://emojipedia.org/icons8/14.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/icons8/373/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels-animations/3.5/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels-animations/3.5/teddy-bear",
+    "src": "https://em-content.zobj.net/source/joypixels-animations/366/teddy-bear_1f9f8.gif"
+  },
+  {
+    "id": "joypixels/1.0/bear",
+    "ref": "https://emojipedia.org/joypixels/1.0/bear",
+    "src": "https://em-content.zobj.net/source/emoji-one/5/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/1.0/panda",
+    "ref": "https://emojipedia.org/joypixels/1.0/panda",
+    "src": "https://em-content.zobj.net/source/emoji-one/5/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/2.0/bear",
+    "ref": "https://emojipedia.org/joypixels/2.0/bear",
+    "src": "https://em-content.zobj.net/source/emoji-one/44/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/2.0/panda",
+    "ref": "https://emojipedia.org/joypixels/2.0/panda",
+    "src": "https://em-content.zobj.net/source/emoji-one/44/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/2.2/bear",
+    "ref": "https://emojipedia.org/joypixels/2.2/bear",
+    "src": "https://em-content.zobj.net/source/emoji-one/64/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/2.2/panda",
+    "ref": "https://emojipedia.org/joypixels/2.2/panda",
+    "src": "https://em-content.zobj.net/source/emoji-one/64/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/3.0/bear",
+    "ref": "https://emojipedia.org/joypixels/3.0/bear",
+    "src": "https://em-content.zobj.net/source/emoji-one/98/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/3.0/panda",
+    "ref": "https://emojipedia.org/joypixels/3.0/panda",
+    "src": "https://em-content.zobj.net/source/emoji-one/98/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/3.1/bear",
+    "ref": "https://emojipedia.org/joypixels/3.1/bear",
+    "src": "https://em-content.zobj.net/source/emoji-one/104/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/3.1/panda",
+    "ref": "https://emojipedia.org/joypixels/3.1/panda",
+    "src": "https://em-content.zobj.net/source/emoji-one/104/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/4.0/bear",
+    "ref": "https://emojipedia.org/joypixels/4.0/bear",
+    "src": "https://em-content.zobj.net/source/emojione/151/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/4.0/panda",
+    "ref": "https://emojipedia.org/joypixels/4.0/panda",
+    "src": "https://em-content.zobj.net/source/emojione/151/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/4.0/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/4.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/emojione/151/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels/4.5/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/4.5/teddy-bear",
+    "src": "https://em-content.zobj.net/source/emojione/178/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels/5.0/bear",
+    "ref": "https://emojipedia.org/joypixels/5.0/bear",
+    "src": "https://em-content.zobj.net/source/emojione/211/bear-face_1f43b.png"
+  },
+  {
+    "id": "joypixels/5.0/panda",
+    "ref": "https://emojipedia.org/joypixels/5.0/panda",
+    "src": "https://em-content.zobj.net/source/emojione/211/panda-face_1f43c.png"
+  },
+  {
+    "id": "joypixels/5.0/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/5.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/emojione/211/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels/5.5/bear",
+    "ref": "https://emojipedia.org/joypixels/5.5/bear",
+    "src": "https://em-content.zobj.net/source/joypixels/239/bear_1f43b.png"
+  },
+  {
+    "id": "joypixels/5.5/panda",
+    "ref": "https://emojipedia.org/joypixels/5.5/panda",
+    "src": "https://em-content.zobj.net/source/joypixels/239/panda_1f43c.png"
+  },
+  {
+    "id": "joypixels/5.5/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/5.5/teddy-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/239/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels/6.0/bear",
+    "ref": "https://emojipedia.org/joypixels/6.0/bear",
+    "src": "https://em-content.zobj.net/source/joypixels/257/bear_1f43b.png"
+  },
+  {
+    "id": "joypixels/6.0/panda",
+    "ref": "https://emojipedia.org/joypixels/6.0/panda",
+    "src": "https://em-content.zobj.net/source/joypixels/257/panda_1f43c.png"
+  },
+  {
+    "id": "joypixels/6.0/polar-bear",
+    "ref": "https://emojipedia.org/joypixels/6.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/257/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "joypixels/6.0/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/6.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/257/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels/6.5/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/6.5/teddy-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/275/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "joypixels/8.0/bear",
+    "ref": "https://emojipedia.org/joypixels/8.0/bear",
+    "src": "https://em-content.zobj.net/source/joypixels/369/bear_1f43b.png"
+  },
+  {
+    "id": "joypixels/8.0/panda",
+    "ref": "https://emojipedia.org/joypixels/8.0/panda",
+    "src": "https://em-content.zobj.net/source/joypixels/369/panda_1f43c.png"
+  },
+  {
+    "id": "joypixels/8.0/polar-bear",
+    "ref": "https://emojipedia.org/joypixels/8.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/369/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "joypixels/9.0/bear",
+    "ref": "https://emojipedia.org/joypixels/9.0/bear",
+    "src": "https://em-content.zobj.net/source/joypixels/394/bear_1f43b.png"
+  },
+  {
+    "id": "joypixels/9.0/panda",
+    "ref": "https://emojipedia.org/joypixels/9.0/panda",
+    "src": "https://em-content.zobj.net/source/joypixels/394/panda_1f43c.png"
+  },
+  {
+    "id": "joypixels/9.0/polar-bear",
+    "ref": "https://emojipedia.org/joypixels/9.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/394/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "joypixels/9.0/teddy-bear",
+    "ref": "https://emojipedia.org/joypixels/9.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/joypixels/394/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "lg/g3/bear",
+    "ref": "https://emojipedia.org/lg/g3/bear",
+    "src": "https://em-content.zobj.net/source/lg/34/bear-face_1f43b.png"
+  },
+  {
+    "id": "lg/g3/panda",
+    "ref": "https://emojipedia.org/lg/g3/panda",
+    "src": "https://em-content.zobj.net/source/lg/34/panda-face_1f43c.png"
+  },
+  {
+    "id": "lg/velvet/bear",
+    "ref": "https://emojipedia.org/lg/velvet/bear",
+    "src": "https://em-content.zobj.net/source/lg/307/bear_1f43b.png"
+  },
+  {
+    "id": "lg/velvet/panda",
+    "ref": "https://emojipedia.org/lg/velvet/panda",
+    "src": "https://em-content.zobj.net/source/lg/307/panda_1f43c.png"
+  },
+  {
+    "id": "lg/velvet/teddy-bear",
+    "ref": "https://emojipedia.org/lg/velvet/teddy-bear",
+    "src": "https://em-content.zobj.net/source/lg/307/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "messenger/1.0/bear",
+    "ref": "https://emojipedia.org/messenger/1.0/bear",
+    "src": "https://em-content.zobj.net/source/facebook/65/bear-face_1f43b.png"
+  },
+  {
+    "id": "messenger/1.0/panda",
+    "ref": "https://emojipedia.org/messenger/1.0/panda",
+    "src": "https://em-content.zobj.net/source/facebook/65/panda-face_1f43c.png"
+  },
+  {
+    "id": "microsoft-3D-fluent/fluent-15.1/bear",
+    "ref": "https://emojipedia.org/microsoft-3D-fluent/fluent-15.1/bear",
+    "src": "https://em-content.zobj.net/source/microsoft-3D-fluent/406/bear_1f43b.png"
+  },
+  {
+    "id": "microsoft-3D-fluent/fluent-15.1/panda",
+    "ref": "https://emojipedia.org/microsoft-3D-fluent/fluent-15.1/panda",
+    "src": "https://em-content.zobj.net/source/microsoft-3D-fluent/406/panda_1f43c.png"
+  },
+  {
+    "id": "microsoft-3D-fluent/fluent-15.1/polar-bear",
+    "ref": "https://emojipedia.org/microsoft-3D-fluent/fluent-15.1/polar-bear",
+    "src": "https://em-content.zobj.net/source/microsoft-3D-fluent/406/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "microsoft-3D-fluent/fluent-15.1/teddy-bear",
+    "ref": "https://emojipedia.org/microsoft-3D-fluent/fluent-15.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/microsoft-3D-fluent/406/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "microsoft-teams/15.0/bear",
+    "ref": "https://emojipedia.org/microsoft-teams/15.0/bear",
+    "src": "https://em-content.zobj.net/source/microsoft-teams/363/bear_1f43b.png"
+  },
+  {
+    "id": "microsoft-teams/15.0/panda",
+    "ref": "https://emojipedia.org/microsoft-teams/15.0/panda",
+    "src": "https://em-content.zobj.net/source/microsoft-teams/363/panda_1f43c.png"
+  },
+  {
+    "id": "microsoft-teams/15.0/polar-bear",
+    "ref": "https://emojipedia.org/microsoft-teams/15.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/microsoft-teams/363/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "microsoft-teams/15.0/teddy-bear",
+    "ref": "https://emojipedia.org/microsoft-teams/15.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/microsoft-teams/363/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "microsoft/windows-10-anniversary-update/bear",
+    "ref": "https://emojipedia.org/microsoft/windows-10-anniversary-update/bear",
+    "src": "https://em-content.zobj.net/source/microsoft/74/bear-face_1f43b.png"
+  },
+  {
+    "id": "microsoft/windows-10-anniversary-update/panda",
+    "ref": "https://emojipedia.org/microsoft/windows-10-anniversary-update/panda",
+    "src": "https://em-content.zobj.net/source/microsoft/74/panda-face_1f43c.png"
+  },
+  {
+    "id": "microsoft/windows-10-october-2018-update/teddy-bear",
+    "ref": "https://emojipedia.org/microsoft/windows-10-october-2018-update/teddy-bear",
+    "src": "https://em-content.zobj.net/source/microsoft/153/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "microsoft/windows-10/bear",
+    "ref": "https://emojipedia.org/microsoft/windows-10/bear",
+    "src": "https://em-content.zobj.net/source/microsoft/54/bear-face_1f43b.png"
+  },
+  {
+    "id": "microsoft/windows-10/panda",
+    "ref": "https://emojipedia.org/microsoft/windows-10/panda",
+    "src": "https://em-content.zobj.net/source/microsoft/54/panda-face_1f43c.png"
+  },
+  {
+    "id": "microsoft/windows-11-23h2-june-2024-update/bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11-23h2-june-2024-update/bear",
+    "src": "https://em-content.zobj.net/source/microsoft/407/bear_1f43b.png"
+  },
+  {
+    "id": "microsoft/windows-11-23h2-june-2024-update/panda",
+    "ref": "https://emojipedia.org/microsoft/windows-11-23h2-june-2024-update/panda",
+    "src": "https://em-content.zobj.net/source/microsoft/407/panda_1f43c.png"
+  },
+  {
+    "id": "microsoft/windows-11-23h2-june-2024-update/polar-bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11-23h2-june-2024-update/polar-bear",
+    "src": "https://em-content.zobj.net/source/microsoft/407/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "microsoft/windows-11-23h2-june-2024-update/teddy-bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11-23h2-june-2024-update/teddy-bear",
+    "src": "https://em-content.zobj.net/source/microsoft/407/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "microsoft/windows-11-november-2021-update/bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11-november-2021-update/bear",
+    "src": "https://em-content.zobj.net/source/microsoft/310/bear_1f43b.png"
+  },
+  {
+    "id": "microsoft/windows-11-november-2021-update/panda",
+    "ref": "https://emojipedia.org/microsoft/windows-11-november-2021-update/panda",
+    "src": "https://em-content.zobj.net/source/microsoft/310/panda_1f43c.png"
+  },
+  {
+    "id": "microsoft/windows-11-november-2021-update/polar-bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11-november-2021-update/polar-bear",
+    "src": "https://em-content.zobj.net/source/microsoft/310/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "microsoft/windows-11-november-2021-update/teddy-bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11-november-2021-update/teddy-bear",
+    "src": "https://em-content.zobj.net/source/microsoft/310/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "microsoft/windows-11/polar-bear",
+    "ref": "https://emojipedia.org/microsoft/windows-11/polar-bear",
+    "src": "https://em-content.zobj.net/source/microsoft/309/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "microsoft/windows-8.0/bear",
+    "ref": "https://emojipedia.org/microsoft/windows-8.0/bear",
+    "src": "https://em-content.zobj.net/source/microsoft/58/bear-face_1f43b.png"
+  },
+  {
+    "id": "microsoft/windows-8.0/panda",
+    "ref": "https://emojipedia.org/microsoft/windows-8.0/panda",
+    "src": "https://em-content.zobj.net/source/microsoft/58/panda-face_1f43c.png"
+  },
+  {
+    "id": "microsoft/windows-8.1/bear",
+    "ref": "https://emojipedia.org/microsoft/windows-8.1/bear",
+    "src": "https://em-content.zobj.net/source/microsoft/17/bear-face_1f43b.png"
+  },
+  {
+    "id": "microsoft/windows-8.1/panda",
+    "ref": "https://emojipedia.org/microsoft/windows-8.1/panda",
+    "src": "https://em-content.zobj.net/source/microsoft/17/panda-face_1f43c.png"
+  },
+  {
+    "id": "mozilla/firefox-os-2.5/bear",
+    "ref": "https://emojipedia.org/mozilla/firefox-os-2.5/bear",
+    "src": "https://em-content.zobj.net/source/mozilla/36/bear-face_1f43b.png"
+  },
+  {
+    "id": "mozilla/firefox-os-2.5/panda",
+    "ref": "https://emojipedia.org/mozilla/firefox-os-2.5/panda",
+    "src": "https://em-content.zobj.net/source/mozilla/36/panda-face_1f43c.png"
+  },
+  {
+    "id": "nec/pi-et1/panda",
+    "ref": "https://emojipedia.org/nec/pi-et1/panda",
+    "src": "https://em-content.zobj.net/source/nec/398/panda_1f43c.png"
+  },
+  {
+    "id": "noto-emoji/15.1/bear",
+    "ref": "https://emojipedia.org/noto-emoji/15.1/bear",
+    "src": "https://em-content.zobj.net/source/noto-emoji/377/bear_1f43b.jpg"
+  },
+  {
+    "id": "noto-emoji/15.1/panda",
+    "ref": "https://emojipedia.org/noto-emoji/15.1/panda",
+    "src": "https://em-content.zobj.net/source/noto-emoji/377/panda_1f43c.jpg"
+  },
+  {
+    "id": "noto-emoji/15.1/polar-bear",
+    "ref": "https://emojipedia.org/noto-emoji/15.1/polar-bear",
+    "src": "https://em-content.zobj.net/source/noto-emoji/377/polar-bear_1f43b-200d-2744-fe0f.jpg"
+  },
+  {
+    "id": "noto-emoji/15.1/teddy-bear",
+    "ref": "https://emojipedia.org/noto-emoji/15.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/noto-emoji/377/teddy-bear_1f9f8.jpg"
+  },
+  {
+    "id": "openmoji/1.0/bear",
+    "ref": "https://emojipedia.org/openmoji/1.0/bear",
+    "src": "https://em-content.zobj.net/source/openmoji/212/bear-face_1f43b.png"
+  },
+  {
+    "id": "openmoji/1.0/panda",
+    "ref": "https://emojipedia.org/openmoji/1.0/panda",
+    "src": "https://em-content.zobj.net/source/openmoji/212/panda-face_1f43c.png"
+  },
+  {
+    "id": "openmoji/12.0/teddy-bear",
+    "ref": "https://emojipedia.org/openmoji/12.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/openmoji/213/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "openmoji/12.2/polar-bear",
+    "ref": "https://emojipedia.org/openmoji/12.2/polar-bear",
+    "src": "https://em-content.zobj.net/source/openmoji/242/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "openmoji/13.1/teddy-bear",
+    "ref": "https://emojipedia.org/openmoji/13.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/openmoji/292/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "openmoji/15.0/bear",
+    "ref": "https://emojipedia.org/openmoji/15.0/bear",
+    "src": "https://em-content.zobj.net/source/openmoji/384/bear_1f43b.png"
+  },
+  {
+    "id": "openmoji/15.0/panda",
+    "ref": "https://emojipedia.org/openmoji/15.0/panda",
+    "src": "https://em-content.zobj.net/source/openmoji/384/panda_1f43c.png"
+  },
+  {
+    "id": "openmoji/15.0/polar-bear",
+    "ref": "https://emojipedia.org/openmoji/15.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/openmoji/384/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "openmoji/15.0/teddy-bear",
+    "ref": "https://emojipedia.org/openmoji/15.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/openmoji/384/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "samsung/experience-9.0/bear",
+    "ref": "https://emojipedia.org/samsung/experience-9.0/bear",
+    "src": "https://em-content.zobj.net/source/samsung/128/bear-face_1f43b.png"
+  },
+  {
+    "id": "samsung/experience-9.0/panda",
+    "ref": "https://emojipedia.org/samsung/experience-9.0/panda",
+    "src": "https://em-content.zobj.net/source/samsung/128/panda-face_1f43c.png"
+  },
+  {
+    "id": "samsung/experience-9.5/teddy-bear",
+    "ref": "https://emojipedia.org/samsung/experience-9.5/teddy-bear",
+    "src": "https://em-content.zobj.net/source/samsung/148/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "samsung/one-ui-1.0/bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-1.0/bear",
+    "src": "https://em-content.zobj.net/source/samsung/161/bear-face_1f43b.png"
+  },
+  {
+    "id": "samsung/one-ui-1.0/panda",
+    "ref": "https://emojipedia.org/samsung/one-ui-1.0/panda",
+    "src": "https://em-content.zobj.net/source/samsung/161/panda-face_1f43c.png"
+  },
+  {
+    "id": "samsung/one-ui-1.0/teddy-bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-1.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/samsung/161/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "samsung/one-ui-2.5/polar-bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-2.5/polar-bear",
+    "src": "https://em-content.zobj.net/source/samsung/265/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "samsung/one-ui-6.0/bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.0/bear",
+    "src": "https://em-content.zobj.net/source/samsung/380/bear_1f43b.png"
+  },
+  {
+    "id": "samsung/one-ui-6.0/panda",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.0/panda",
+    "src": "https://em-content.zobj.net/source/samsung/380/panda_1f43c.png"
+  },
+  {
+    "id": "samsung/one-ui-6.0/polar-bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/samsung/380/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "samsung/one-ui-6.1/bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.1/bear",
+    "src": "https://em-content.zobj.net/source/samsung/395/bear_1f43b.png"
+  },
+  {
+    "id": "samsung/one-ui-6.1/panda",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.1/panda",
+    "src": "https://em-content.zobj.net/source/samsung/395/panda_1f43c.png"
+  },
+  {
+    "id": "samsung/one-ui-6.1/polar-bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.1/polar-bear",
+    "src": "https://em-content.zobj.net/source/samsung/395/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "samsung/one-ui-6.1/teddy-bear",
+    "ref": "https://emojipedia.org/samsung/one-ui-6.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/samsung/395/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "samsung/touchwiz-2.0/bear",
+    "ref": "https://emojipedia.org/samsung/touchwiz-2.0/bear",
+    "src": "https://em-content.zobj.net/source/samsung/45/bear-face_1f43b.png"
+  },
+  {
+    "id": "samsung/touchwiz-2.0/panda",
+    "ref": "https://emojipedia.org/samsung/touchwiz-2.0/panda",
+    "src": "https://em-content.zobj.net/source/samsung/45/panda-face_1f43c.png"
+  },
+  {
+    "id": "samsung/touchwiz-7.0/bear",
+    "ref": "https://emojipedia.org/samsung/touchwiz-7.0/bear",
+    "src": "https://em-content.zobj.net/source/samsung/75/bear-face_1f43b.png"
+  },
+  {
+    "id": "samsung/touchwiz-7.0/panda",
+    "ref": "https://emojipedia.org/samsung/touchwiz-7.0/panda",
+    "src": "https://em-content.zobj.net/source/samsung/75/panda-face_1f43c.png"
+  },
+  {
+    "id": "samsung/touchwiz-7.1/bear",
+    "ref": "https://emojipedia.org/samsung/touchwiz-7.1/bear",
+    "src": "https://em-content.zobj.net/source/samsung/78/bear-face_1f43b.png"
+  },
+  {
+    "id": "samsung/touchwiz-7.1/panda",
+    "ref": "https://emojipedia.org/samsung/touchwiz-7.1/panda",
+    "src": "https://em-content.zobj.net/source/samsung/78/panda-face_1f43c.png"
+  },
+  {
+    "id": "serenityos/2024-01-31/bear",
+    "ref": "https://emojipedia.org/serenityos/2024-01-31/bear",
+    "src": "https://em-content.zobj.net/source/serenityos/392/bear_1f43b.png"
+  },
+  {
+    "id": "serenityos/2024-01-31/panda",
+    "ref": "https://emojipedia.org/serenityos/2024-01-31/panda",
+    "src": "https://em-content.zobj.net/source/serenityos/392/panda_1f43c.png"
+  },
+  {
+    "id": "serenityos/2024-01-31/polar-bear",
+    "ref": "https://emojipedia.org/serenityos/2024-01-31/polar-bear",
+    "src": "https://em-content.zobj.net/source/serenityos/392/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "serenityos/2024-01-31/teddy-bear",
+    "ref": "https://emojipedia.org/serenityos/2024-01-31/teddy-bear",
+    "src": "https://em-content.zobj.net/source/serenityos/392/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "skype/1.0/teddy-bear",
+    "ref": "https://emojipedia.org/skype/1.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/skype/295/hugging-face_1f917.png"
+  },
+  {
+    "id": "skype/1.2/bear",
+    "ref": "https://emojipedia.org/skype/1.2/bear",
+    "src": "https://em-content.zobj.net/source/skype/289/bear_1f43b.png"
+  },
+  {
+    "id": "skype/1.2/panda",
+    "ref": "https://emojipedia.org/skype/1.2/panda",
+    "src": "https://em-content.zobj.net/source/skype/289/panda_1f43c.png"
+  },
+  {
+    "id": "skype/1.2/teddy-bear",
+    "ref": "https://emojipedia.org/skype/1.2/teddy-bear",
+    "src": "https://em-content.zobj.net/source/skype/289/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "softbank/1997/bear",
+    "ref": "https://emojipedia.org/softbank/1997/bear",
+    "src": "https://em-content.zobj.net/source/softbank/182/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/1998/bear",
+    "ref": "https://emojipedia.org/softbank/1998/bear",
+    "src": "https://em-content.zobj.net/source/softbank/183/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/1999/bear",
+    "ref": "https://emojipedia.org/softbank/1999/bear",
+    "src": "https://em-content.zobj.net/source/softbank/170/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/2000/bear",
+    "ref": "https://emojipedia.org/softbank/2000/bear",
+    "src": "https://em-content.zobj.net/source/softbank/171/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/2001/bear",
+    "ref": "https://emojipedia.org/softbank/2001/bear",
+    "src": "https://em-content.zobj.net/source/softbank/172/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/2004/bear",
+    "ref": "https://emojipedia.org/softbank/2004/bear",
+    "src": "https://em-content.zobj.net/source/softbank/173/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/2006/bear",
+    "ref": "https://emojipedia.org/softbank/2006/bear",
+    "src": "https://em-content.zobj.net/source/softbank/175/bear-face_1f43b.gif"
+  },
+  {
+    "id": "softbank/2014/bear",
+    "ref": "https://emojipedia.org/softbank/2014/bear",
+    "src": "https://em-content.zobj.net/source/softbank/145/bear-face_1f43b.png"
+  },
+  {
+    "id": "softbank/2014/panda",
+    "ref": "https://emojipedia.org/softbank/2014/panda",
+    "src": "https://em-content.zobj.net/source/softbank/145/panda-face_1f43c.png"
+  },
+  {
+    "id": "sony/13.1/bear",
+    "ref": "https://emojipedia.org/sony/13.1/bear",
+    "src": "https://em-content.zobj.net/source/sony/336/bear_1f43b.png"
+  },
+  {
+    "id": "sony/13.1/panda",
+    "ref": "https://emojipedia.org/sony/13.1/panda",
+    "src": "https://em-content.zobj.net/source/sony/336/panda_1f43c.png"
+  },
+  {
+    "id": "sony/13.1/polar-bear",
+    "ref": "https://emojipedia.org/sony/13.1/polar-bear",
+    "src": "https://em-content.zobj.net/source/sony/336/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "sony/13.1/teddy-bear",
+    "ref": "https://emojipedia.org/sony/13.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/sony/336/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "telegram/telemoji-december-2022/bear",
+    "ref": "https://emojipedia.org/telegram/telemoji-december-2022/bear",
+    "src": "https://em-content.zobj.net/source/telegram/360/bear_1f43b.webp"
+  },
+  {
+    "id": "telegram/telemoji-december-2022/panda",
+    "ref": "https://emojipedia.org/telegram/telemoji-december-2022/panda",
+    "src": "https://em-content.zobj.net/source/telegram/360/panda_1f43c.webp"
+  },
+  {
+    "id": "telegram/telemoji-december-2022/polar-bear",
+    "ref": "https://emojipedia.org/telegram/telemoji-december-2022/polar-bear",
+    "src": "https://em-content.zobj.net/source/telegram/360/polar-bear_1f43b-200d-2744-fe0f.webp"
+  },
+  {
+    "id": "telegram/telemoji-november-2023/bear",
+    "ref": "https://emojipedia.org/telegram/telemoji-november-2023/bear",
+    "src": "https://em-content.zobj.net/source/telegram/386/bear_1f43b.webp"
+  },
+  {
+    "id": "telegram/telemoji-november-2023/panda",
+    "ref": "https://emojipedia.org/telegram/telemoji-november-2023/panda",
+    "src": "https://em-content.zobj.net/source/telegram/386/panda_1f43c.webp"
+  },
+  {
+    "id": "telegram/telemoji-november-2023/polar-bear",
+    "ref": "https://emojipedia.org/telegram/telemoji-november-2023/polar-bear",
+    "src": "https://em-content.zobj.net/source/telegram/386/polar-bear_1f43b-200d-2744-fe0f.webp"
+  },
+  {
+    "id": "toss-face/1.6/bear",
+    "ref": "https://emojipedia.org/toss-face/1.6/bear",
+    "src": "https://em-content.zobj.net/source/toss-face/381/bear_1f43b.png"
+  },
+  {
+    "id": "toss-face/1.6/panda",
+    "ref": "https://emojipedia.org/toss-face/1.6/panda",
+    "src": "https://em-content.zobj.net/source/toss-face/381/panda_1f43c.png"
+  },
+  {
+    "id": "toss-face/1.6/polar-bear",
+    "ref": "https://emojipedia.org/toss-face/1.6/polar-bear",
+    "src": "https://em-content.zobj.net/source/toss-face/381/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "toss-face/1.6/teddy-bear",
+    "ref": "https://emojipedia.org/toss-face/1.6/teddy-bear",
+    "src": "https://em-content.zobj.net/source/toss-face/381/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "toss-face/february-2022/bear",
+    "ref": "https://emojipedia.org/toss-face/february-2022/bear",
+    "src": "https://em-content.zobj.net/source/toss-face/330/bear_1f43b.png"
+  },
+  {
+    "id": "toss-face/february-2022/panda",
+    "ref": "https://emojipedia.org/toss-face/february-2022/panda",
+    "src": "https://em-content.zobj.net/source/toss-face/330/panda_1f43c.png"
+  },
+  {
+    "id": "toss-face/february-2022/teddy-bear",
+    "ref": "https://emojipedia.org/toss-face/february-2022/teddy-bear",
+    "src": "https://em-content.zobj.net/source/toss-face/330/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "twitter-emoji-stickers/13.1/bear",
+    "ref": "https://emojipedia.org/twitter-emoji-stickers/13.1/bear",
+    "src": "https://em-content.zobj.net/source/twitter/348/bear_1f43b.png"
+  },
+  {
+    "id": "twitter-emoji-stickers/13.1/panda",
+    "ref": "https://emojipedia.org/twitter-emoji-stickers/13.1/panda",
+    "src": "https://em-content.zobj.net/source/twitter/348/panda_1f43c.png"
+  },
+  {
+    "id": "twitter-emoji-stickers/13.1/polar-bear",
+    "ref": "https://emojipedia.org/twitter-emoji-stickers/13.1/polar-bear",
+    "src": "https://em-content.zobj.net/source/twitter/348/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "twitter-emoji-stickers/13.1/teddy-bear",
+    "ref": "https://emojipedia.org/twitter-emoji-stickers/13.1/teddy-bear",
+    "src": "https://em-content.zobj.net/source/twitter/348/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "twitter/twemoji-1.0/bear",
+    "ref": "https://emojipedia.org/twitter/twemoji-1.0/bear",
+    "src": "https://em-content.zobj.net/source/twitter/31/bear-face_1f43b.png"
+  },
+  {
+    "id": "twitter/twemoji-1.0/panda",
+    "ref": "https://emojipedia.org/twitter/twemoji-1.0/panda",
+    "src": "https://em-content.zobj.net/source/twitter/31/panda-face_1f43c.png"
+  },
+  {
+    "id": "twitter/twemoji-11.0/teddy-bear",
+    "ref": "https://emojipedia.org/twitter/twemoji-11.0/teddy-bear",
+    "src": "https://em-content.zobj.net/source/twitter/141/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "twitter/twemoji-13.0/polar-bear",
+    "ref": "https://emojipedia.org/twitter/twemoji-13.0/polar-bear",
+    "src": "https://em-content.zobj.net/source/twitter/248/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "twitter/twemoji-15.0.3/bear",
+    "ref": "https://emojipedia.org/twitter/twemoji-15.0.3/bear",
+    "src": "https://em-content.zobj.net/source/twitter/408/bear_1f43b.png"
+  },
+  {
+    "id": "twitter/twemoji-15.0.3/panda",
+    "ref": "https://emojipedia.org/twitter/twemoji-15.0.3/panda",
+    "src": "https://em-content.zobj.net/source/twitter/408/panda_1f43c.png"
+  },
+  {
+    "id": "twitter/twemoji-15.0.3/polar-bear",
+    "ref": "https://emojipedia.org/twitter/twemoji-15.0.3/polar-bear",
+    "src": "https://em-content.zobj.net/source/twitter/408/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "twitter/twemoji-15.0.3/teddy-bear",
+    "ref": "https://emojipedia.org/twitter/twemoji-15.0.3/teddy-bear",
+    "src": "https://em-content.zobj.net/source/twitter/408/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "whatsapp/2.17/bear",
+    "ref": "https://emojipedia.org/whatsapp/2.17/bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/116/bear-face_1f43b.png"
+  },
+  {
+    "id": "whatsapp/2.17/panda",
+    "ref": "https://emojipedia.org/whatsapp/2.17/panda",
+    "src": "https://em-content.zobj.net/source/whatsapp/116/panda-face_1f43c.png"
+  },
+  {
+    "id": "whatsapp/2.18.379/teddy-bear",
+    "ref": "https://emojipedia.org/whatsapp/2.18.379/teddy-bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/169/teddy-bear_1f9f8.png"
+  },
+  {
+    "id": "whatsapp/2.20.206.24/polar-bear",
+    "ref": "https://emojipedia.org/whatsapp/2.20.206.24/polar-bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/273/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "whatsapp/2.21.16.20/polar-bear",
+    "ref": "https://emojipedia.org/whatsapp/2.21.16.20/polar-bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/302/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "whatsapp/2.24.8.85/bear",
+    "ref": "https://emojipedia.org/whatsapp/2.24.8.85/bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/401/bear_1f43b.png"
+  },
+  {
+    "id": "whatsapp/2.24.8.85/panda",
+    "ref": "https://emojipedia.org/whatsapp/2.24.8.85/panda",
+    "src": "https://em-content.zobj.net/source/whatsapp/401/panda_1f43c.png"
+  },
+  {
+    "id": "whatsapp/2.24.8.85/polar-bear",
+    "ref": "https://emojipedia.org/whatsapp/2.24.8.85/polar-bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/401/polar-bear_1f43b-200d-2744-fe0f.png"
+  },
+  {
+    "id": "whatsapp/2.24.8.85/teddy-bear",
+    "ref": "https://emojipedia.org/whatsapp/2.24.8.85/teddy-bear",
+    "src": "https://em-content.zobj.net/source/whatsapp/401/teddy-bear_1f9f8.png"
+  }
+]

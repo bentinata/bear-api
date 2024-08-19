@@ -22,3 +22,6 @@ export const NewBearSchema = createInsertSchema(bears, {
     }),
 });
 export type NewBear = Zod.infer<typeof NewBearSchema>;
+
+export const UpdateBearSchema = NewBearSchema.omit({ id: true }).partial();
+export type UpdateBear = Zod.infer<typeof UpdateBearSchema>;

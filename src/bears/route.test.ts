@@ -16,6 +16,10 @@ const mockedBear = BearSchema.parse({
 const { id, ...validNewBear } = mockedBear;
 const invalidNewBear = { name: "123" };
 
+const headers: HeadersInit = {
+  "content-type": "application/json",
+};
+
 describe("GET /", () => {
   it("should return list of bears", async () => {
     spyOn(repo, "getBears").mockResolvedValue([mockedBear]);
@@ -47,9 +51,7 @@ describe("POST /", () => {
 
     const res = await app.request("/", {
       method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
+      headers,
       body: JSON.stringify(validNewBear),
     });
 
@@ -64,9 +66,7 @@ describe("POST /", () => {
 
     const res = await app.request("/", {
       method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
+      headers,
       body: JSON.stringify(invalidNewBear),
     });
 
@@ -99,23 +99,61 @@ describe("GET /:name", () => {
   });
 });
 
-describe.todo("PATCH /:name", () => {
+describe("PATCH /:name", () => {
   it("should update and return new details of bear", async () => {
-    const res = await app.request("/1", {
+    const mockedUpdateBear = spyOn(repo, "updateBear").mockResolvedValue(
+      mockedBear
+    );
+    const res = await app.request("/ben", {
       method: "PATCH",
+      headers,
+      body: JSON.stringify(validNewBear),
     });
 
     expect(res.status).toBe(200);
-    expect().fail("implementation needed");
+    expect(mockedUpdateBear).toBeCalledWith("ben", validNewBear);
+  });
+
+  it("should err when updated bear is invalid", async () => {
+    const mockedUpdateBear = spyOn(repo, "updateBear").mockResolvedValue(
+      mockedBear
+    );
+    const res = await app.request("/ben", {
+      method: "PATCH",
+      headers,
+      body: JSON.stringify(invalidNewBear),
+    });
+
+    expect(res.status).toBe(400);
+    expect(mockedUpdateBear).not.toBeCalled();
   });
 
   it("should return error when updated bear does not exist", async () => {
-    const res = await app.request("/1", {
+    const mockedUpdateBear = spyOn(repo, "updateBear").mockResolvedValue(
+      undefined
+    );
+    const res = await app.request("/ghost", {
       method: "PATCH",
+      headers,
+      body: JSON.stringify(validNewBear),
     });
 
     expect(res.status).toBe(422);
-    expect().fail("implementation needed");
+    expect(mockedUpdateBear).toBeCalledWith("ghost", validNewBear);
+  });
+
+  it("should return error when database update failed", async () => {
+    const mockedUpdateBear = spyOn(repo, "updateBear").mockRejectedValue(
+      new Error()
+    );
+    const res = await app.request("/ben", {
+      method: "PATCH",
+      headers,
+      body: JSON.stringify(validNewBear),
+    });
+
+    expect(res.status).toBe(500);
+    expect(mockedUpdateBear).toBeCalledWith("ben", validNewBear);
   });
 });
 

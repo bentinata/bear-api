@@ -1,5 +1,6 @@
+import { eq } from "drizzle-orm";
 import { db } from "../db";
-import { bears, type Bear, type NewBear } from "./schema";
+import { bears, type Bear, type NewBear, type UpdateBear } from "./schema";
 
 export function getBears(): Promise<Bear[]> {
   return db.query.bears.findMany();
@@ -21,4 +22,16 @@ export function insertBear(bear: NewBear): Promise<Bear> {
       .returning()
       .then(([insertedBear]) => insertedBear)
   );
+}
+
+export function updateBear(
+  name: string,
+  bear: UpdateBear
+): Promise<Bear | undefined> {
+  return db
+    .update(bears)
+    .set(bear)
+    .where(eq(bears.name, name))
+    .returning()
+    .then(([updatedBear]) => updatedBear);
 }

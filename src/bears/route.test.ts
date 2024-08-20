@@ -157,31 +157,38 @@ describe("PATCH /:name", () => {
   });
 });
 
-describe.todo("DELETE /:name", () => {
+describe("DELETE /:name", () => {
   it("should delete existing bear", async () => {
-    const res = await app.request("/", {
+    const mockedSoftDeleteBear = spyOn(
+      repo,
+      "softDeleteBear"
+    ).mockResolvedValue(mockedBear);
+    const res = await app.request("/ben", {
       method: "DELETE",
     });
 
     expect(res.status).toBe(204);
-    expect().fail("implementation needed");
+    expect(mockedSoftDeleteBear).toBeCalledWith("ben");
   });
 
   it("should return error when deleted bear does not exist", async () => {
-    const res = await app.request("/", {
+    const mockedSoftDeleteBear = spyOn(
+      repo,
+      "softDeleteBear"
+    ).mockResolvedValue(undefined);
+    const res = await app.request("/ghost", {
       method: "DELETE",
     });
 
     expect(res.status).toBe(422);
-    expect().fail("implementation needed");
+    expect(mockedSoftDeleteBear).toBeCalledWith("ghost");
   });
 
-  it("should return error when deleted bear is already deleted", async () => {
+  it.todo("should return error when deleted bear is already deleted", async () => {
     const res = await app.request("/", {
       method: "DELETE",
     });
 
     expect(res.status).toBe(410);
-    expect().fail("implementation needed");
   });
 });

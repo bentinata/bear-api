@@ -1,7 +1,13 @@
 import { zValidator } from "@hono/zod-validator";
 import { Hono } from "hono";
 import postgres from "postgres";
-import { getBearByName, getBears, insertBear, updateBear } from "./repo";
+import {
+  getBearByName,
+  getBears,
+  insertBear,
+  softDeleteBear,
+  updateBear,
+} from "./repo";
 import { NewBearSchema, UpdateBearSchema } from "./schema";
 
 const app = new Hono();
@@ -74,5 +80,17 @@ app.patch(
     }
   }
 );
+
+app.delete("/:name", async (c) => {
+  const deleted = await softDeleteBear(c.req.param("name"));
+
+  if (!deleted) {
+    c.status(422);
+    return c.json(null);
+  }
+
+  c.status(204);
+  return c.json(null);
+});
 
 export default app;

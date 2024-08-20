@@ -21,7 +21,7 @@ export const sleuths = pgTable("sleuths", {
   }).notNull(),
 });
 
-export const sleuthStatus = pgEnum("status", ["mentor", "cub"]);
+export const sleuthStatus = pgEnum("sleuth_status", ["mentor", "cub"]);
 
 export const sleuthAttendees = pgTable(
   "sleuth_participants",

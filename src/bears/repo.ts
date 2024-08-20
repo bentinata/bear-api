@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { and, eq, not } from "drizzle-orm";
 import { db } from "../db";
 import { bears, type Bear, type NewBear, type UpdateBear } from "./schema";
 
@@ -34,4 +34,13 @@ export function updateBear(
     .where(eq(bears.name, name))
     .returning()
     .then(([updatedBear]) => updatedBear);
+}
+
+export function softDeleteBear(name: string): Promise<Bear | undefined> {
+  return db
+    .update(bears)
+    .set({ status: "DELETED" })
+    .where(and(eq(bears.name, name), not(eq(bears.status, "DELETED"))))
+    .returning()
+    .then(([deletedBear]) => deletedBear);
 }

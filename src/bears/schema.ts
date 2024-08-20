@@ -1,11 +1,20 @@
-import { pgTable, serial, uniqueIndex, varchar } from "drizzle-orm/pg-core";
+import {
+  pgEnum,
+  pgTable,
+  serial,
+  uniqueIndex,
+  varchar,
+} from "drizzle-orm/pg-core";
 import { createInsertSchema, createSelectSchema } from "drizzle-zod";
+
+export const bearStatus = pgEnum("bear_status", ["CREATED", "DELETED"]);
 
 export const bears = pgTable(
   "bears",
   {
     id: serial("id").notNull().primaryKey(),
     name: varchar("name", { length: 64 }).notNull(),
+    status: bearStatus("status").notNull().default("CREATED"),
   },
   (bear) => ({
     nameIndex: uniqueIndex().on(bear.name),
